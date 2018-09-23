@@ -1,0 +1,3 @@
+此代码未包括静态路径
+/var/www/html/static/kindeditor
+因为此路径太大，而且都是用户上传的文件，不是代码相关
