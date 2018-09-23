@@ -1,0 +1,505 @@
+@media ( min-width : 1200px) {
+    .in_d3_k img{
+        transition: all 1s ease 0s;
+    }
+    .in_d3_k:hover img{
+        transform:scale(1.1);
+        -ms-transform:scale(1.1); 
+        -moz-transform:scale(1.1); 
+        -webkit-transform:scale(1.1);
+        -o-transform:scale(1.1);
+    }
+    /*关于我们*/
+    .ny_dy1_tit{
+        background: url(../images/img9.png) center no-repeat;
+        padding: 98px 0 85px;
+    }
+}
+
+@media (max-width : 1199px) and (min-width : 768px){
+    /*nav*/
+    .navbar-default .navbar-nav>li>a{
+        padding: 0 8px;
+    }
+    .dropdown-menu {
+        text-align: left;
+        height: auto;
+    }
+    .dropdown-menu li {
+        display: block;
+    }
+
+    .navbar-toggle {
+        margin-top: 20px;
+    }
+    .navbar-default .navbar-nav > li > a:hover,
+    .navbar-default .navbar-nav > li > a:focus ,
+    .navbar-default .navbar-nav > .active > a,
+    .navbar-default .navbar-nav > .active > a:hover,
+    .navbar-default .navbar-nav > .active > a:focus,
+    .navbar-default .navbar-nav > .open > a,
+    .navbar-default .navbar-nav > .open > a:hover,
+    .navbar-default .navbar-nav > .open > a:focus {
+        color: #fff;
+        background: none;
+    }
+    .nav_bm{
+        margin-bottom: 20px;
+    }
+
+    /*banner*/
+    .index_banner .owl-theme .owl-controls .owl-buttons div{
+        display: none;
+    }
+
+    .index_banner .owl-pagination{
+        bottom: 20px;
+    }
+
+    /*三大分类*/
+    .in_d1{
+        background-image: none!important;
+
+    }
+    .in_d1 h3 a{
+        font-size: 22px;
+        line-height: 38px;
+    }
+
+    /*大图部分*/
+    .in_d3{
+        top: 20%;
+    }
+    .in_d3>a{
+        margin-top: 10%;
+    }
+    
+    /*机器人竞赛与培训部*/
+    .in_d4_l{
+        margin-top: 0;
+    }
+    .in_d4_l h3 a{
+        font-size: 26px;
+        line-height: 36px;
+        margin-bottom: 10px;
+    }
+    /*查看更多赛事*/
+    .in_txt{
+        width: 68%;
+    }
+    .in_but{
+        width: 30%;
+    }
+
+
+    /*组织架构*/
+    .ny_d1{
+        padding-bottom: 30px;
+    }
+
+
+    /*项目简介 */
+    .ny_h1_year a{
+        width: 20%;
+    }
+
+    .ny_d1_m_1 a{
+        width: 31%;
+        margin-bottom: 2%;
+        margin-left: 2%;
+    }
+    .ny_d1_m_1 a.on_50{
+        width: 64%;
+        margin-bottom: 2%;
+        margin-left: 2%;
+    }
+    .ny_h2_d1 a{
+        width: 30%;
+        margin-bottom: 3%;
+    }
+
+
+    /*精彩图集*/
+    #gallery{
+        display: none;
+    }
+
+    .gall_pad{
+        display: block;
+    }
+}
+
+
+@media (min-width : 1024px) and (max-width: 1199px) {
+    /*nav*/
+    .navbar-header {
+        max-width: 33%;
+    }
+    .nav > li > a {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .dropdown-menu {
+        text-align: center;
+        height: 46px;
+    }
+    .dropdown-menu li {
+        display: inline-block;
+    }
+    
+    .ny_h5_l h3{
+        margin-bottom: 5px;
+        line-height: 36px;
+    }
+
+    /*footer*/
+    .ft_d3 a{
+        font-size: 10px;
+    }
+}
+@media (max-width : 1023px) and (min-width: 992px) {
+    /*nav*/
+    .navbar-header {
+        max-width: 33%;
+    }
+    .nav > li > a {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .dropdown-menu {
+        text-align: center;
+        height: 46px;
+    }
+    .dropdown-menu li {
+        display: inline-block;
+    }
+
+}
+
+
+
+@media (max-width :767px) {
+
+    .navbar-default {
+        min-height: 66px;
+    }
+    .nav > li,
+    .dropdown  {
+        position: relative;
+    }
+    .dropdown-menu {
+        text-align: left;
+        height: auto;
+    }
+    .navbar-toggle {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .header-info .search {
+    width: 100%;
+    float: none;
+    padding-top: 45px;
+    padding-bottom: 15px;
+    }
+    .header-info .line {
+    float: right;
+    margin: 0 10px;
+    display: inline-block;
+    }
+    .nav > li > a {
+        padding-top: 0;
+        padding-bottom: 0;
+        height: 32px;
+        line-height: 32px;
+        font-size: 16px;
+        color: #3b3b3b;
+    }
+    .navbar-default .navbar-nav > li > a:hover,
+    .navbar-default .navbar-nav > li > a:focus ,
+    .navbar-default .navbar-nav > .active > a,
+    .navbar-default .navbar-nav > .active > a:hover,
+    .navbar-default .navbar-nav > .active > a:focus,
+    .navbar-default .navbar-nav > .open > a,
+    .navbar-default .navbar-nav > .open > a:hover,
+    .navbar-default .navbar-nav > .open > a:focus {
+        color: #fff;
+        background: none;
+    }
+    .dropdown-menu li {
+        display: block;
+    }
+    .nav_bm{
+        margin-bottom: 20px;
+    }
+
+    /*banner*/
+    .index_banner .item a.ban_img1{
+        display: block;
+    }
+    .index_banner .item a.ban_img0{
+        display: none;
+    }
+    .index_banner .owl-theme .owl-controls .owl-buttons div{
+        display: none;
+    }
+    .index_banner .owl-pagination{
+        bottom: 20px;
+    }
+
+    /*三大分类*/
+    .in_d1_k{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .in_d1{
+        /*background-image: none!important;*/
+        /*text-align: center;*/
+    }
+    .in_d1 h3 a{
+        font-size: 22px;
+        line-height: 38px;
+    }
+    .in_d1_k{
+        border-bottom: 1px solid #c7ccd4;
+    }
+    .in_d1>a{
+        margin: 20px 0 0;
+    }
+
+    /*通知公告*/
+    .in_d2_t h3{
+        font-size: 32px;
+    }
+
+    /*大图部分*/
+    .in_d3{
+        top: 20%;
+    }
+    .in_d3>a{
+        margin-top: 10%;
+    }
+
+    /*机器人竞赛与培训部*/
+    .in_d4_l{
+        margin-top: 0;
+        padding-bottom: 20px;
+    }
+    .in_d4_l h3 a{
+        font-size: 26px;
+        line-height: 36px;
+        margin-bottom: 10px;
+    }
+    /*查看更多赛事*/
+    .in_d5_r{
+        text-align: left;
+        margin-top: 20px;
+    }
+    .in_txt{
+        width: 68%;
+    }
+    .in_but{
+        width: 30%;
+    }
+    .in_d5_r1 a{
+        margin-left: 0;
+        margin-right: 20px;
+    }
+    
+    /*footer*/
+    .fot_bg{
+        padding-top: 10px;
+    }
+    .ft_d2{
+        display: none;
+    }
+    .fot_p{
+        margin-top: 30px;
+    }
+    
+    /*关于我们*/
+    .other-banner img.oter_img1{
+        display: none;
+    }
+    .other-banner img.oter_img2{
+        display: block;
+    }
+    .ny_nav_bg{
+        /*line-height: 35px;*/
+    }
+
+    .ny_nav_l a{
+        width: 85%;
+    }
+    .ny_nav_r{
+        float: left;
+    }
+
+    .ny_dy1_tit h3{
+        font-size: 24px;
+        
+    }
+    .ny_dy1_tit span{
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    /*组织架构*/
+    .ny_d1 h3{
+        line-height: 80px;
+    }
+    .ny_d1{
+        padding-bottom: 30px;
+    }
+
+
+    /*政策资讯详情*/
+    .ny_d2_k h3{
+        font-size: 24px;
+        line-height: 32px;
+        padding: 15px 0;
+    }
+    .ny_page p{
+        font-size: 15px;
+    }
+
+
+    /*项目简介 */
+    .ny_h1_year a{
+        width: 20%;
+    }
+
+    .ny_d1_m_1 a{
+        width: 48%;
+        margin-bottom: 2%;
+        margin-left: 1%;
+    }
+    .ny_d1_m_1 a.on_50{
+        width: 98%;
+        margin-bottom: 2%;
+        margin-left: 1%;
+    }
+
+    .ny_h2_d1 a{
+        width: 30%;
+        margin-bottom: 3%;
+    }
+
+
+    .ny_h_dy1 h3{
+        font-size:28px;
+        line-height: 42px;
+        margin-top: 35px;
+    }
+
+
+    #gallery{
+        display: none;
+    }
+
+    .gall_pad{
+        display: block;
+    }
+
+    .ny_h2 .owl-theme .owl-controls .owl-buttons div{
+        display: none;
+    }
+
+
+
+    /*6/6 add*/
+    .in_phone_d1{
+        display: block;
+    }
+
+    .in_d1_h{
+        display: none;
+    }
+
+    .in_ph_d1{
+        width: 50%;
+        border-bottom: 1px solid #c7ccd4;
+        border-right: 1px solid #c7ccd4;
+        float: left;
+        text-align: center;
+        background: #f6f7fb;
+        padding: 15px;
+    }
+    .in_ph_d1 img{
+        display: block;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .in_ph_d1 h3 a{
+        font-size: 15px;
+        color: #1a61b6;
+        line-height: 28px;
+        margin: 0 auto;
+        display: block;
+        width: 90%;
+    }
+    .in_ph_d1 p{
+        color: #dde3f1;
+        font-family: Arial;
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .in_phone_d1 .in_ph_d1:last-child{
+        border-right: none;
+    }
+    
+    .in_ph_d2{
+        background-color: #f6f7fb;
+        border-bottom: 1px solid #c7ccd4;
+        padding: 45px 20px;
+        background-position: right;
+        background-repeat: no-repeat;
+    }
+
+    .in_ph_d2 a{
+        font-size: 15px;
+        color: #1a61b6;
+        line-height: 28px;
+        display: block;
+    }
+    .in_ph_d2 p{
+        color: #dde3f1;
+        font-family: Arial;
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+
+    .ft_ph_d1{
+        display: block;
+        border-bottom: 1px solid #262626;
+        padding-bottom: 20px;
+    }
+
+    .ft_ph_d1 h3{
+        font-size: 14px;
+        color: #ffffff;
+        line-height: 55px;
+    }
+
+    .ft_ph_d1 a{
+        width: 25%;
+        font-size: 13px;
+        color: #7e7e7e;
+        float: left;
+        display: block;
+        line-height: 22px;
+    }
+
+    .ny_nav_bg_1 .ny_nav{
+        line-height: 30px;
+    }
+    .ny_nav_bg_1 .ny_nav_l {
+        float: none;
+        width: 100%;
+    }
+}

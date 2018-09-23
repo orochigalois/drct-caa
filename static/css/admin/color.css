@@ -1,0 +1,82 @@
+ 
+/* 填写型表格样式
+------------------------------ */
+.form_add{zoom:1;}
+.form_add:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0;}
+.form_add dt{float:left;padding:5px 0;clear:left;text-align:right;}
+.form_add dd{float:left;padding:5px 0;*float:none;}
+.form_add .tip{padding:0;color:#777;}
+
+.table_form caption{text-align:left;font-weight:bold;}
+.table_form th{padding:3px 5px;text-align:right;}
+.table_form td{padding:3px 5px;}
+.table_form .tip{color:#777;}
+
+
+
+/* 表单控件样式
+------------------------------ */
+ 
+.tip_val{color:#999;}
+.tip_star{padding:0 5px;color:#e00;}
+
+
+
+
+
+/* 按钮样式
+------------------------------ */
+.awesome,
+.awesome:link,
+.awesome:visited{position:relative;display:inline-block;padding:5px 10px 4px;border:none;border-bottom:1px solid rgba(0,0,0,0.25);border-radius:5px;background:#222;box-shadow:0 1px 3px rgba(0,0,0,0.5);color:#fff;text-decoration:none;font:12px/1 "\5b8b\4f53";cursor:pointer;}
+.awesome:hover{background-color:#111;color:#fff;}
+.awesome:active{top:1px;}
+.small.awesome,
+.small.awesome:visited{padding:3px 8px 2px;}
+
+.green.awesome,
+.green.awesome:link,
+.green.awesome:visited{background-color:#91bd09;}
+.green.awesome:hover{background-color:#749a02;}
+.blue.awesome,
+.blue.awesome:link,
+.blue.awesome:visited{background-color:#2daebf;}
+.blue.awesome:hover{background-color:#007d9a;}
+.red.awesome,
+.red.awesome:link,
+.red.awesome:visited{background-color:#e33100;}
+.red.awesome:hover{background-color:#872300;}
+.magenta.awesome,
+.magenta.awesome:link,
+.magenta.awesome:visited{background-color:#a9014b;}
+.magenta.awesome:hover{background-color:#630030;}
+.orange.awesome,
+.orange.awesome:link,
+.orange.awesome:visited{background-color:#ff5c00;}
+.orange.awesome:hover{background-color:#d45500;}
+.gray.awesome,
+.gray.awesome:link,
+.gray.awesome:visited{background-color:#777;}
+.gray.awesome:hover{background-color:#555;}
+
+.awesome[disabled='disabled'],
+.awesome[disabled='disabled']:link,
+.awesome[disabled='disabled']:visited,
+.awesome[disabled='disabled']:hover{background-color:#f5f5f5;color:#999;}
+
+
+
+/* 清理浮动
+------------------------------ */
+.clearfix{zoom:1;}
+.clearfix:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0;}
+
+input.html_color{width:18px;height:18px;padding:0;border:none;background:#000 url(images/color_picker.png) no-repeat;font-size:0;line-height:0;vertical-align:middle;cursor:pointer;}
+ 
+
+.html_colorpane{display:none;position:absolute;z-index:999;}
+.html_colorpane h5{position:relative;width:220px;padding:0 5px;border:1px solid #000;border-bottom:none;background:#fff;color:#999;font:normal 12px/20px "\5B8B\4F53";}
+.html_colorpane h5 span{cursor:pointer;}
+.html_colorpane h5 em{position:absolute;top:0;right:5px;font:normal 16px/20px Tahoma;cursor:pointer;}
+.html_colorpane table{border-collapse:collapse;table-layout:fixed;empty-cells:show;}
+.html_colorpane td{position:static;width:10px;height:10px;padding:0;border:1px solid #000;font-size:0;line-height:0;cursor:pointer;}
