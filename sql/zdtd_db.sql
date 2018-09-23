@@ -177,7 +177,7 @@ CREATE TABLE `web_base` (
 --
 
 INSERT INTO `web_base` (`id`, `title`, `keyword`, `descs`, `QQ`, `content`, `QQName`, `isQQ`, `qqStype`, `simg`, `tel`, `email`, `address`, `weburl`, `postcode`) VALUES
-(1, '自动化学会机器人竞赛与培训部', '', '自动化学会机器人竞赛与培训部的宗旨是通过组织机器人比赛和技术研讨，让更多的群众尤其是青少年朋友了解机器人，喜爱机器人，向他们普及现代科学知识，为我国的机器人事业培养更多的优秀人才。同时通过机器人比赛和技术研讨，也为推动和促进机器人与自动化技术的发展与创新，为我国的快速持续发展贡献力量。', '123456,123456', 'Copyright @ 自动化学会机器人竞赛与培训部 版权所有 未经许可 不得转载 京ICP备16031467号-1 <a href="/index.php/admin"><span style="background-color:#FFFFFF;">维护</span></a>', '在线客服一,在线客服二', '0', 2, 'static/kindeditor/attached/image/20170531/b062399117954dd45004244cbb0adbf2.png', '13718801721', 'drct@caa.org.cn', '中关村东路95号，自动化大厦509室，海淀', 'http://reg.robomatch.org', '100190');
+(1, '自动化学会机器人竞赛与培训部', '', '自动化学会机器人竞赛与培训部的宗旨是通过组织机器人比赛和技术研讨，让更多的群众尤其是青少年朋友了解机器人，喜爱机器人，向他们普及现代科学知识，为我国的机器人事业培养更多的优秀人才。同时通过机器人比赛和技术研讨，也为推动和促进机器人与自动化技术的发展与创新，为我国的快速持续发展贡献力量。', '123456,123456', 'Copyright @ 自动化学会机器人竞赛与培训部 版权所有 未经许可 不得转载 京ICP备16031467号-1 <a href="/index.php/admin"><span style="background-color:#FFFFFF;">维护</span></a>', '在线客服一,在线客服二', '0', 2, 'static/kindeditor/attached/image/20170531/b062399117954dd45004244cbb0adbf2.png', '13718801721', 'drct@caa.org.cn', '中关村东路95号，自动化大厦509室，海淀', 'http://robotreg.drct-caa.org.cn', '100190');
 
 -- --------------------------------------------------------
 
