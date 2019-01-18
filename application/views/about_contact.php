@@ -29,7 +29,16 @@ $baseInfo = $this->Base_model->row( array('id' => 1) );?>
           <?php echo $detail['content']?>
       </div>
   </div>  
-  <!-- 留言咨询 -->
+
+  <div class="ny_h5_bg row fix">
+    <div class="ny_h5_l fix">
+        <p>RoboCup Junior 相关问题咨询请加入QQ交流群：57171258</p>
+        <p>RoboCup 大学组及中国机器人大赛相关问题咨询请邮件联系：liukuan@caa.org.cn</p>
+    </div>
+  </div>
+
+  <!-- 留言咨询  注释此模块-->
+<?php if (1==2):?>
   <form class="msgForm"  method="post" action="<?php echo site_url('about/actMsg')?>">
   <div class="ny_h5 fix">
      <h3>留言咨询</h3> 
@@ -57,6 +66,7 @@ $baseInfo = $this->Base_model->row( array('id' => 1) );?>
       </div>
   </div>
   </form>
+<?php endif;?>
 </div>
 <script>
 $(".msgForm").Validform({

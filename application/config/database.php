@@ -50,12 +50,12 @@ $active_record = TRUE;
 
 $db['default']['hostname'] = '127.0.0.1';
 $db['default']['username'] = 'root';
-$db['default']['password'] = 'Alice2018';
+$db['default']['password'] = 'root';
 $db['default']['database'] = 'zdtd_db';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = 'web_';
 $db['default']['pconnect'] = FALSE;
-$db['default']['db_debug'] = TRUE; //FALSE ¹Ø±Õ±¨´í»úÖÆ
+$db['default']['db_debug'] = TRUE; //FALSE ï¿½Ø±Õ±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 $db['default']['cache_on'] = FALSE;
 $db['default']['cachedir'] = '';
 $db['default']['char_set'] = 'utf8';

@@ -8,7 +8,9 @@
         <a href="<?php echo site_url('race/lists?catid='.$typeList[0]['id'])?>">查看更多</a>
     </div>
 </div>
-<!-- 广告图 -->
+
+<!-- 广告图 注释此模块 -->
+<?php if(1==2):?>
 <div class="in_d4_k container fix">
     <a href="<?php echo site_url('race/lists?catid='.$typeList[1]['id'])?>"><img src="<?php echo base_url($typeList[1]['h_simg']);?>" /></a>
 </div>
@@ -39,6 +41,7 @@
         <a href="<?php echo site_url('race/lists?catid='.$typeList[1]['id'])?>" class="in_d2_more">查看更多</a>
     </div>
 </div>
+<?php endif;?>
 
 <!-- 赛事历程 -->
 <div class="in_d5_k fix">

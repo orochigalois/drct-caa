@@ -61,7 +61,8 @@
       
     })
 </script>
-<!-- 通知公告 -->
+<!-- 最新通知 注释此模块 -->
+<?php if (1==2):?>
 <div class="in_d2_k fix">
     <div class="container fix">
         <div class="in_d2_t fix">
@@ -88,6 +89,7 @@
         <a href="<?php echo site_url('category?catid='.$typeInfo['id'])?>" class="in_d2_more">查看更多</a>
     </div>
 </div>
+<?php endif;?>
 
 <!-- 大图部分 -->
 <div class="in_d3_h fix">
